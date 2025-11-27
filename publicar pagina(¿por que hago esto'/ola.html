@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sobre Nosotros - Crepura</title>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fff0f5; 
+      color: #444;
+      line-height: 1.8;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .about-section {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    
+    .about-section p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+      text-align: justify;
+      text-justify: inter-word;
+    }
+
+    
+    .about-section h2 {
+      font-size: 1.8rem;
+      margin: 30px 0 15px;
+      background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      position: relative;
+      display: inline-block;
+      padding-bottom: 10px;
+      transition: text-shadow 0.4s ease, transform 0.3s ease;
+    }
+
+    .about-section h2::after {
+      content: "";
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+      margin: 8px auto 0;
+      border-radius: 2px;
+    }
+
+    
+    .about-section h2:hover {
+      text-shadow: 0 0 8px rgba(255, 154, 158, 0.6),
+                   0 0 15px rgba(250, 208, 196, 0.6);
+      transform: scale(1.03);
+    }
+
+    
+    .about-section img {
+      display: block;        
+      margin: 20px auto;     
+      max-width: 100%;
+      height: auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.5s ease, box-shadow 0.5s ease, border 0.5s ease;
+      border: 3px solid transparent;
+    }
+
+    
+    .about-section img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 20px rgba(255, 154, 158, 0.6);
+      border: 3px solid #ff9a9e;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9rem;
+      margin-top: 30px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .about-section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SOBRE NOSOTROS :D 🥞</h1>
+  </header>
+
+  <div class="container">
+    <section class="about-section">
+      <h2>Conoce sobre el equipo crepura</h2>
+      <img src="./img/Crepas.jpg" alt="Crepas deliciosas">
+
+      <h2>Misión</h2>
+      <p>En <strong>Crepura</strong> ofrecemos productos de la más alta calidad en ingredientes y sabor, buscando generar momentos únicos acompañados de un grandioso sabor, marcando la diferencia mientras conectamos con nuestros consumidores.</p>
+      <img src="./img/Mision.jpg" alt="Nuestra misión">
+      
+      <h2>Visión</h2>
+      <p>Anhelamos ser la empresa líder en innovación y conexión hacia el cliente. Buscamos conectar con el consumidor en cada producto o servicio, queremos involucrarnos en esos momentos únicos que el cliente vive con nosotros.</p>
+      <img src="./img/vision.jpg" alt="Nuestra visión">
+      
+      <h2>Objetivos de Crepura</h2>
+      <p>Ofrecer productos de alta calidad, innovadores y deliciosas crepas que satisfagan las necesidades o deseos de nuestros clientes. Crear un ambiente acogedor y agradable para que nuestros clientes puedan disfrutar las crepas. Buscamos destacar en el mercado como una empresa amigable y alegre, que tiene variedades de sabores, además de crear sitios web para ofrecer servicio a domicilio para las personas que quieran disfrutar en sus hogares.</p>
+      <img src="./img/Objetivos.jpg" alt="Objetivos de Crepura">
+      
+      <h2>Valores</h2>
+      <p>
+        <strong>1. Pasión:</strong> Cada acción se hace con cariño y atención al producto.<br>
+        <strong>2. Compromiso:</strong> Cumplir con lo prometido al cliente.<br>
+        <strong>3. Honestidad:</strong> Ser sinceros y satisfacer lo prometido.<br>
+        <strong>4. Responsabilidad:</strong> Ser responsables con las buenas prácticas como la higiene.<br>
+        <strong>5. Calidad:</strong> Ofrecer productos de buena calidad en preparación y sabor.<br>
+      </p>
+      <img src="./img/valores.jpg" alt="Nuestros valores">
+      
+      
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Crepura. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
